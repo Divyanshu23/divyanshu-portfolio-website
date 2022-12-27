@@ -6,74 +6,59 @@ import Link from 'next/link';
 
 const crypto = () => {
   return (
-    <div className='w-full'>
-      <div className='w-screen h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+    <div className='w-full px-10'>
+      <div className='w-[100%] h-[65vh] relative'>
+        <div className='absolute top-0 left-0 w-full h-[65vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
-          objectFit='cover'
+          objectFit='contain'
           src={NoteIt}
-          alt='/'
+          alt='NoteIt Cloud Notebook'
         />
-        <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+        <div className='px-6 absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
+          <h2 className='py-2'>NoteIt | Cloud Notebook</h2>
+          <h3>React JS / Tailwind / MongoDB</h3>
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
+      <div className='max-w-[1240px] mx-auto p-2 grid lg:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+          <p className='text-justify'>
+            NoteIt is a cloud notebook solution that allows users to create, update and delete their day-to-day notes right away in the cloud wihtout cluttering their local machines. It&apos;s that daily CRUD app where things are written and retrieved from localstorage. The app uses a full fledged database to store a user	&apos;s notes, user	&apos;s information and others. NoteIt is designed using Tailwind CSS, powered by MongoDB, has a secure authentication system using express-validator, becrypt JS and JSON web token, has it&apos;s backend written in Express js ,has a clean UI for creating, updating and deleting notes.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/Divyanshu23/noteit-cloud-notebook'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
-            href='https://cryptobase-yt.web.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 lg:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1 '>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+            <div className='flex lg:flex-col justify-evenly flex-wrap items-center'>
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React JS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React Redux
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> MongoDB
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coin Gecko API
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Express JS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Routes
+              <p className='text-gray-600 py-2 px-1 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> JSON Web Token
               </p>
             </div>
           </div>

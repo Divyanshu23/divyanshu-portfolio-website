@@ -9,19 +9,19 @@ import TextUtility from "../public/assets/projects/textutility.png"
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full px-10'>
       <div className='max-w-[1280px] mx-auto py-16'>
         <p className='text-xl tracking-widest font-semibold uppercase text-[#5651e5] mb-6'>
           Work Experience & Projects
         </p>
         
         <div className='flex justify-center items-center mb-8'>
-          <div className='relative flex items-center justify-center h-[36rem] w-full md:w-[40%] shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
+          <div className='relative flex items-center justify-center h-[36rem] w-full md:w-[50%] lg:w-[40%] shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
             <Image className='rounded-xl group-hover:opacity-10' src="/assets/projects/me_amazon.jpg" alt='Divyanshu_Amazon' layout='fill' sizes="100vw" style={{ objectFit: 'contain' }} />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
               <h3 className='text-2xl text-white tracking-wider text-center w-full'>Amazon SDE Intern</h3>
               <p className='pb-4 pt-2 text-white text-center'>JAVA</p>
-              <Link href='/'>
+              <Link href='/intern'>
                 <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
               </Link>
             </div>

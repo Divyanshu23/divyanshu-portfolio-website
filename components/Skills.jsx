@@ -11,7 +11,7 @@ import Git from "../public/assets/skills/git.png"
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full lg:h-screen p-2 px-10'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest font-semibold uppercase text-[#5651e5]'>
           Skills
@@ -23,7 +23,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>Next</h3>
               </div>
             </div>
@@ -33,17 +33,17 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>React</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='grid grid-cols-2 gap-4 justify-items-center items-center'>
               <div className='m-auto'>
                 <Image src={Redux} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>React Redux</h3>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Express} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>Express</h3>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>Tailwind</h3>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Mongo} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>MongodDB</h3>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Java} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>Java</h3>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Git} width='100px' height='50px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center text-xs sm:text-sm md:text-xl'>
                 <h3>Git</h3>
               </div>
             </div>

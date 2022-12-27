@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Divyanshu Gangwar | Home</title>
+        <title>Divyanshu Gangwar</title>
         <meta name="description" content="Divyanshu Gangwar is an undergraduate student at Indian Institute of Technology, KANPUR. Proficient in Next.js, React.js, Node.js, Express.js, Tailwind CSS, Mongo DB. He has previosuly interned at Amazon India. He also has knowledge of Computer Systems and Network." />
         <meta name="keywords" content="divyanshu gangwar, nextjs, reactjs, nodejs, expressjs, tailwind css, Javascript, Java"/>
         <meta name="robots" content="index, follow"/>
