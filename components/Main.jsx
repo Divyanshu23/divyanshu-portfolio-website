@@ -12,8 +12,8 @@ const Main = () => {
           <h1 className='py-4 text-[#5651e5]'>
             Divyanshu Gangwar
           </h1>
-          <h2 className='py-2 text-gray-700 text-3xl'>Undergraduate Student @ IIT KANPUR</h2>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto text-xl'>
+          <h2 className='py-2 text-gray-700 text-xl sm:text-2xl md:text-3xl'>Undergraduate Student @ IIT KANPUR</h2>
+          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto text-xl md:text-2xl'>
             Student Developer | Full Stack Tech
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import React from 'react';
-import AmazonLogo from "../public/assets/projects/amazon_logo.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

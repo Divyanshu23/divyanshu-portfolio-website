@@ -24,7 +24,7 @@ const Contact = () => {
           {/* left */}
           <div className='col-span-2 sm:col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full flex flex-col sm:flex-row justify-center items-center lg:flex-col'>
-              <div className='relative w-2/5'>
+              <div className='relative w-3/5 sm:w-2/5 py-4'>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
                   src={ContactImg}
