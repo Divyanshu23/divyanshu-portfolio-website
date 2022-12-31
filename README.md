@@ -26,3 +26,9 @@ npm run build
 ```
 
 After the production build is ready, configure your server using Nginx or Apache or others, point your domain to host's IP and done.
+
+
+## Acknowledgements
+
+ - [Clint Briley](https://github.com/fireclint)
+ Website's design is inspired from Clint Briley's Youtube Channel "Code Commence"
