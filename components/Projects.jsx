@@ -5,7 +5,8 @@ import ProjectItem from './ProjectItem';
 import NextFashion from "../public/assets/projects/nextfashion.png"
 import NoteIt from "../public/assets/projects/noteit.png"
 import News from "../public/assets/projects/news_app.png"
-import TextUtility from "../public/assets/projects/textutility.png"
+import Spaces from "../public/assets/projects/spaces.png"
+// import TextUtility from "../public/assets/projects/textutility.png"
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
         <p className='text-xl tracking-widest font-semibold uppercase text-[#5651e5] mb-6'>
           Work Experience & Projects
         </p>
-        
+
         <div className='flex justify-center items-center mb-8'>
           <div className='relative flex items-center justify-center h-[27rem] sm:h-[36rem] w-full md:w-[55%] lg:w-[42%] shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
             <Image className='rounded-xl group-hover:opacity-10' src="/assets/projects/me_amazon.jpg" alt='Divyanshu_Amazon' layout='fill' sizes="100vw" style={{ objectFit: 'contain' }} />
@@ -29,6 +30,13 @@ const Projects = () => {
         </div>
 
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Spaces'
+            backgroundImg={Spaces}
+            projectUrl='/spaces'
+            tech='Next.js'
+          />
+
           <ProjectItem
             title='NextFashion'
             backgroundImg={NextFashion}
@@ -51,12 +59,12 @@ const Projects = () => {
 
           />
 
-          <ProjectItem
+          {/* <ProjectItem
             title='Text Utility App'
             backgroundImg={TextUtility}
             projectUrl='/textutility'
             tech='React.js'
-          />
+          /> */}
         </div>
       </div>
     </div>

@@ -14,7 +14,6 @@ export default function Home() {
         <meta name="keywords" content="divyanshu gangwar, nextjs, reactjs, nodejs, expressjs, tailwind css, Javascript, Java"/>
         <meta name="robots" content="index, follow"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        {/* <link rel="icon" href="/fav.png" /> */}
       </Head>
     <Main />
     <About />
